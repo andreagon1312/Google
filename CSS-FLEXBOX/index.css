@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #202125;
+    width: 100%;
+    height: 100%;
+}
+
+.div-container{
+    width: inherit;
+    display: flex;
+    border: 2px solid turquoise;
+}
+.div-container.navigation{
+    justify-content: flex-end;
+}
+.div-container .header{
+    display: flex;
+    width: 369px;
+    justify-content: space-between;
+    border: 2px solid green;
+}
